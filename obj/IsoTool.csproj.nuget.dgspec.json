@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\IsoTool\\IsoTool.csproj": {}
+  },
+  "projects": {
+    "C:\\IsoTool\\IsoTool.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\IsoTool\\IsoTool.csproj",
+        "projectName": "IsoTool",
+        "projectPath": "C:\\IsoTool\\IsoTool.csproj",
+        "packagesPath": "C:\\Users\\Эльвира\\.nuget\\packages\\",
+        "outputPath": "C:\\IsoTool\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Эльвира\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net481"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Эльвира\\AppData\\Roaming\\Cosmos User Kit2\\packages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net481": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net481": {
+          "dependencies": {
+            "LTRData.DiscUtils.Iso9660": {
+              "target": "Package",
+              "version": "[1.0.85, )"
+            },
+            "LTRData.DiscUtils.Udf": {
+              "target": "Package",
+              "version": "[1.0.85, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

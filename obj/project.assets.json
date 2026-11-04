@@ -1,0 +1,1167 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8.1": {
+      "LTRData.DiscUtils.Core/1.0.85": {
+        "type": "package",
+        "dependencies": {
+          "LTRData.DiscUtils.Streams": "1.0.85",
+          "System.Text.Encoding.CodePages": "9.0.17"
+        },
+        "compile": {
+          "lib/net48/DiscUtils.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DiscUtils.Core.dll": {}
+        }
+      },
+      "LTRData.DiscUtils.Iso9660/1.0.85": {
+        "type": "package",
+        "dependencies": {
+          "LTRData.DiscUtils.Core": "1.0.85"
+        },
+        "compile": {
+          "lib/net48/DiscUtils.Iso9660.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DiscUtils.Iso9660.dll": {}
+        }
+      },
+      "LTRData.DiscUtils.Streams/1.0.85": {
+        "type": "package",
+        "dependencies": {
+          "LTRData.Extensions": "1.0.22",
+          "Microsoft.Bcl.HashCode": "6.0.0",
+          "System.Collections.Immutable": "9.0.17",
+          "System.Memory": "4.6.3",
+          "System.Threading.Tasks.Extensions": "4.6.3"
+        },
+        "compile": {
+          "lib/net48/DiscUtils.Streams.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DiscUtils.Streams.dll": {}
+        }
+      },
+      "LTRData.DiscUtils.Udf/1.0.85": {
+        "type": "package",
+        "dependencies": {
+          "LTRData.DiscUtils.Core": "1.0.85",
+          "LTRData.DiscUtils.Iso9660": "1.0.85"
+        },
+        "compile": {
+          "lib/net48/DiscUtils.Udf.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DiscUtils.Udf.dll": {}
+        }
+      },
+      "LTRData.Extensions/1.0.22": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.HashCode": "6.0.0",
+          "System.Buffers": "4.5.1",
+          "System.Memory": "4.5.5",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/net48/LTRData.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net48/LTRData.Extensions.dll": {}
+        }
+      },
+      "Microsoft.Bcl.HashCode/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net462/Microsoft.Bcl.HashCode.dll": {}
+        },
+        "runtime": {
+          "lib/net462/Microsoft.Bcl.HashCode.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Buffers/4.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net462/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Buffers.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Collections.Immutable/9.0.17": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net462/System.Collections.Immutable.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Collections.Immutable.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Memory/4.6.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.6.1",
+          "System.Numerics.Vectors": "4.6.1",
+          "System.Runtime.CompilerServices.Unsafe": "6.1.2"
+        },
+        "compile": {
+          "lib/net462/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Memory.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Numerics.Vectors/4.6.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics"
+        ],
+        "compile": {
+          "lib/net462/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Numerics.Vectors.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.1.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net462/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Text.Encoding.CodePages/9.0.17": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net462/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Text.Encoding.CodePages.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.6.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.1.2"
+        },
+        "compile": {
+          "lib/net462/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8.1/win": {
+      "LTRData.DiscUtils.Core/1.0.85": {
+        "type": "package",
+        "dependencies": {
+          "LTRData.DiscUtils.Streams": "1.0.85",
+          "System.Text.Encoding.CodePages": "9.0.17"
+        },
+        "compile": {
+          "lib/net48/DiscUtils.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DiscUtils.Core.dll": {}
+        }
+      },
+      "LTRData.DiscUtils.Iso9660/1.0.85": {
+        "type": "package",
+        "dependencies": {
+          "LTRData.DiscUtils.Core": "1.0.85"
+        },
+        "compile": {
+          "lib/net48/DiscUtils.Iso9660.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DiscUtils.Iso9660.dll": {}
+        }
+      },
+      "LTRData.DiscUtils.Streams/1.0.85": {
+        "type": "package",
+        "dependencies": {
+          "LTRData.Extensions": "1.0.22",
+          "Microsoft.Bcl.HashCode": "6.0.0",
+          "System.Collections.Immutable": "9.0.17",
+          "System.Memory": "4.6.3",
+          "System.Threading.Tasks.Extensions": "4.6.3"
+        },
+        "compile": {
+          "lib/net48/DiscUtils.Streams.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DiscUtils.Streams.dll": {}
+        }
+      },
+      "LTRData.DiscUtils.Udf/1.0.85": {
+        "type": "package",
+        "dependencies": {
+          "LTRData.DiscUtils.Core": "1.0.85",
+          "LTRData.DiscUtils.Iso9660": "1.0.85"
+        },
+        "compile": {
+          "lib/net48/DiscUtils.Udf.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DiscUtils.Udf.dll": {}
+        }
+      },
+      "LTRData.Extensions/1.0.22": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.HashCode": "6.0.0",
+          "System.Buffers": "4.5.1",
+          "System.Memory": "4.5.5",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/net48/LTRData.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net48/LTRData.Extensions.dll": {}
+        }
+      },
+      "Microsoft.Bcl.HashCode/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net462/Microsoft.Bcl.HashCode.dll": {}
+        },
+        "runtime": {
+          "lib/net462/Microsoft.Bcl.HashCode.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Buffers/4.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net462/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Buffers.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Collections.Immutable/9.0.17": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net462/System.Collections.Immutable.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Collections.Immutable.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Memory/4.6.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.6.1",
+          "System.Numerics.Vectors": "4.6.1",
+          "System.Runtime.CompilerServices.Unsafe": "6.1.2"
+        },
+        "compile": {
+          "lib/net462/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Memory.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Numerics.Vectors/4.6.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics"
+        ],
+        "compile": {
+          "lib/net462/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Numerics.Vectors.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.1.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net462/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Text.Encoding.CodePages/9.0.17": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net462/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Text.Encoding.CodePages.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.6.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.1.2"
+        },
+        "compile": {
+          "lib/net462/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8.1/win-x64": {
+      "LTRData.DiscUtils.Core/1.0.85": {
+        "type": "package",
+        "dependencies": {
+          "LTRData.DiscUtils.Streams": "1.0.85",
+          "System.Text.Encoding.CodePages": "9.0.17"
+        },
+        "compile": {
+          "lib/net48/DiscUtils.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DiscUtils.Core.dll": {}
+        }
+      },
+      "LTRData.DiscUtils.Iso9660/1.0.85": {
+        "type": "package",
+        "dependencies": {
+          "LTRData.DiscUtils.Core": "1.0.85"
+        },
+        "compile": {
+          "lib/net48/DiscUtils.Iso9660.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DiscUtils.Iso9660.dll": {}
+        }
+      },
+      "LTRData.DiscUtils.Streams/1.0.85": {
+        "type": "package",
+        "dependencies": {
+          "LTRData.Extensions": "1.0.22",
+          "Microsoft.Bcl.HashCode": "6.0.0",
+          "System.Collections.Immutable": "9.0.17",
+          "System.Memory": "4.6.3",
+          "System.Threading.Tasks.Extensions": "4.6.3"
+        },
+        "compile": {
+          "lib/net48/DiscUtils.Streams.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DiscUtils.Streams.dll": {}
+        }
+      },
+      "LTRData.DiscUtils.Udf/1.0.85": {
+        "type": "package",
+        "dependencies": {
+          "LTRData.DiscUtils.Core": "1.0.85",
+          "LTRData.DiscUtils.Iso9660": "1.0.85"
+        },
+        "compile": {
+          "lib/net48/DiscUtils.Udf.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DiscUtils.Udf.dll": {}
+        }
+      },
+      "LTRData.Extensions/1.0.22": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.HashCode": "6.0.0",
+          "System.Buffers": "4.5.1",
+          "System.Memory": "4.5.5",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/net48/LTRData.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net48/LTRData.Extensions.dll": {}
+        }
+      },
+      "Microsoft.Bcl.HashCode/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net462/Microsoft.Bcl.HashCode.dll": {}
+        },
+        "runtime": {
+          "lib/net462/Microsoft.Bcl.HashCode.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Buffers/4.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net462/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Buffers.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Collections.Immutable/9.0.17": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net462/System.Collections.Immutable.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Collections.Immutable.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Memory/4.6.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.6.1",
+          "System.Numerics.Vectors": "4.6.1",
+          "System.Runtime.CompilerServices.Unsafe": "6.1.2"
+        },
+        "compile": {
+          "lib/net462/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Memory.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Numerics.Vectors/4.6.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics"
+        ],
+        "compile": {
+          "lib/net462/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Numerics.Vectors.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.1.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net462/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Text.Encoding.CodePages/9.0.17": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net462/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Text.Encoding.CodePages.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.6.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.1.2"
+        },
+        "compile": {
+          "lib/net462/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8.1/win-x86": {
+      "LTRData.DiscUtils.Core/1.0.85": {
+        "type": "package",
+        "dependencies": {
+          "LTRData.DiscUtils.Streams": "1.0.85",
+          "System.Text.Encoding.CodePages": "9.0.17"
+        },
+        "compile": {
+          "lib/net48/DiscUtils.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DiscUtils.Core.dll": {}
+        }
+      },
+      "LTRData.DiscUtils.Iso9660/1.0.85": {
+        "type": "package",
+        "dependencies": {
+          "LTRData.DiscUtils.Core": "1.0.85"
+        },
+        "compile": {
+          "lib/net48/DiscUtils.Iso9660.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DiscUtils.Iso9660.dll": {}
+        }
+      },
+      "LTRData.DiscUtils.Streams/1.0.85": {
+        "type": "package",
+        "dependencies": {
+          "LTRData.Extensions": "1.0.22",
+          "Microsoft.Bcl.HashCode": "6.0.0",
+          "System.Collections.Immutable": "9.0.17",
+          "System.Memory": "4.6.3",
+          "System.Threading.Tasks.Extensions": "4.6.3"
+        },
+        "compile": {
+          "lib/net48/DiscUtils.Streams.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DiscUtils.Streams.dll": {}
+        }
+      },
+      "LTRData.DiscUtils.Udf/1.0.85": {
+        "type": "package",
+        "dependencies": {
+          "LTRData.DiscUtils.Core": "1.0.85",
+          "LTRData.DiscUtils.Iso9660": "1.0.85"
+        },
+        "compile": {
+          "lib/net48/DiscUtils.Udf.dll": {}
+        },
+        "runtime": {
+          "lib/net48/DiscUtils.Udf.dll": {}
+        }
+      },
+      "LTRData.Extensions/1.0.22": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.HashCode": "6.0.0",
+          "System.Buffers": "4.5.1",
+          "System.Memory": "4.5.5",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/net48/LTRData.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net48/LTRData.Extensions.dll": {}
+        }
+      },
+      "Microsoft.Bcl.HashCode/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net462/Microsoft.Bcl.HashCode.dll": {}
+        },
+        "runtime": {
+          "lib/net462/Microsoft.Bcl.HashCode.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Buffers/4.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net462/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Buffers.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Collections.Immutable/9.0.17": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net462/System.Collections.Immutable.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Collections.Immutable.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Memory/4.6.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.6.1",
+          "System.Numerics.Vectors": "4.6.1",
+          "System.Runtime.CompilerServices.Unsafe": "6.1.2"
+        },
+        "compile": {
+          "lib/net462/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Memory.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Numerics.Vectors/4.6.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics"
+        ],
+        "compile": {
+          "lib/net462/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Numerics.Vectors.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.1.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net462/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Text.Encoding.CodePages/9.0.17": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net462/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Text.Encoding.CodePages.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.6.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.1.2"
+        },
+        "compile": {
+          "lib/net462/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net462/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LTRData.DiscUtils.Core/1.0.85": {
+      "sha512": "YZIQukkoGJmcMo72DfOJPqT0gSSAOnjD4fC+P1415eEv6mBPic8QSocOiLUVEHL7KRwARaH+wlS2jFmTePyGXw==",
+      "type": "package",
+      "path": "ltrdata.discutils.core/1.0.85",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net10.0/DiscUtils.Core.dll",
+        "lib/net10.0/DiscUtils.Core.xml",
+        "lib/net46/DiscUtils.Core.dll",
+        "lib/net46/DiscUtils.Core.xml",
+        "lib/net48/DiscUtils.Core.dll",
+        "lib/net48/DiscUtils.Core.xml",
+        "lib/net8.0/DiscUtils.Core.dll",
+        "lib/net8.0/DiscUtils.Core.xml",
+        "lib/net9.0/DiscUtils.Core.dll",
+        "lib/net9.0/DiscUtils.Core.xml",
+        "lib/netstandard2.0/DiscUtils.Core.dll",
+        "lib/netstandard2.0/DiscUtils.Core.xml",
+        "lib/netstandard2.1/DiscUtils.Core.dll",
+        "lib/netstandard2.1/DiscUtils.Core.xml",
+        "ltrdata.discutils.core.1.0.85.nupkg.sha512",
+        "ltrdata.discutils.core.nuspec"
+      ]
+    },
+    "LTRData.DiscUtils.Iso9660/1.0.85": {
+      "sha512": "2lU0MtK5veW4+7XBakvOcyQ/5Z6hdklO5kLkyKe+kxuDxHBvXEpdEstGCi7+iy8FERXuGxrwKEcj8s3YQp7U/A==",
+      "type": "package",
+      "path": "ltrdata.discutils.iso9660/1.0.85",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net10.0/DiscUtils.Iso9660.dll",
+        "lib/net10.0/DiscUtils.Iso9660.xml",
+        "lib/net46/DiscUtils.Iso9660.dll",
+        "lib/net46/DiscUtils.Iso9660.xml",
+        "lib/net48/DiscUtils.Iso9660.dll",
+        "lib/net48/DiscUtils.Iso9660.xml",
+        "lib/net8.0/DiscUtils.Iso9660.dll",
+        "lib/net8.0/DiscUtils.Iso9660.xml",
+        "lib/net9.0/DiscUtils.Iso9660.dll",
+        "lib/net9.0/DiscUtils.Iso9660.xml",
+        "lib/netstandard2.0/DiscUtils.Iso9660.dll",
+        "lib/netstandard2.0/DiscUtils.Iso9660.xml",
+        "lib/netstandard2.1/DiscUtils.Iso9660.dll",
+        "lib/netstandard2.1/DiscUtils.Iso9660.xml",
+        "ltrdata.discutils.iso9660.1.0.85.nupkg.sha512",
+        "ltrdata.discutils.iso9660.nuspec"
+      ]
+    },
+    "LTRData.DiscUtils.Streams/1.0.85": {
+      "sha512": "D2BqCbZhZjqMO982nqXXpq3unTKAr6IRoW4+1ODF1clL6SRlv7JNBhPRu+0jK1gwU0O0Pi8OQ+92m7I5wBqh8A==",
+      "type": "package",
+      "path": "ltrdata.discutils.streams/1.0.85",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net10.0/DiscUtils.Streams.dll",
+        "lib/net10.0/DiscUtils.Streams.xml",
+        "lib/net46/DiscUtils.Streams.dll",
+        "lib/net46/DiscUtils.Streams.xml",
+        "lib/net48/DiscUtils.Streams.dll",
+        "lib/net48/DiscUtils.Streams.xml",
+        "lib/net8.0/DiscUtils.Streams.dll",
+        "lib/net8.0/DiscUtils.Streams.xml",
+        "lib/net9.0/DiscUtils.Streams.dll",
+        "lib/net9.0/DiscUtils.Streams.xml",
+        "lib/netstandard2.0/DiscUtils.Streams.dll",
+        "lib/netstandard2.0/DiscUtils.Streams.xml",
+        "lib/netstandard2.1/DiscUtils.Streams.dll",
+        "lib/netstandard2.1/DiscUtils.Streams.xml",
+        "ltrdata.discutils.streams.1.0.85.nupkg.sha512",
+        "ltrdata.discutils.streams.nuspec"
+      ]
+    },
+    "LTRData.DiscUtils.Udf/1.0.85": {
+      "sha512": "pYhl0piENkn+lMX4KcmP1qZSV+YF8z2mndOldn44p3bhqWls1iCkJFoDUitGJZL87Ut+DQDgVUnM055Gvxqu2g==",
+      "type": "package",
+      "path": "ltrdata.discutils.udf/1.0.85",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net10.0/DiscUtils.Udf.dll",
+        "lib/net10.0/DiscUtils.Udf.xml",
+        "lib/net46/DiscUtils.Udf.dll",
+        "lib/net46/DiscUtils.Udf.xml",
+        "lib/net48/DiscUtils.Udf.dll",
+        "lib/net48/DiscUtils.Udf.xml",
+        "lib/net8.0/DiscUtils.Udf.dll",
+        "lib/net8.0/DiscUtils.Udf.xml",
+        "lib/net9.0/DiscUtils.Udf.dll",
+        "lib/net9.0/DiscUtils.Udf.xml",
+        "lib/netstandard2.0/DiscUtils.Udf.dll",
+        "lib/netstandard2.0/DiscUtils.Udf.xml",
+        "lib/netstandard2.1/DiscUtils.Udf.dll",
+        "lib/netstandard2.1/DiscUtils.Udf.xml",
+        "ltrdata.discutils.udf.1.0.85.nupkg.sha512",
+        "ltrdata.discutils.udf.nuspec"
+      ]
+    },
+    "LTRData.Extensions/1.0.22": {
+      "sha512": "+cdzposmnUEt7MUMGZD4hhJeOcVI5fIdyM6xI8ZcCgLNMem5J0IO01C6GVn4JzkHpj7Oq5RGlzjZjrYfBqleYg==",
+      "type": "package",
+      "path": "ltrdata.extensions/1.0.22",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net10.0/LTRData.Extensions.dll",
+        "lib/net10.0/LTRData.Extensions.xml",
+        "lib/net35/LTRData.Extensions.dll",
+        "lib/net35/LTRData.Extensions.xml",
+        "lib/net40/LTRData.Extensions.dll",
+        "lib/net40/LTRData.Extensions.xml",
+        "lib/net46/LTRData.Extensions.dll",
+        "lib/net46/LTRData.Extensions.xml",
+        "lib/net48/LTRData.Extensions.dll",
+        "lib/net48/LTRData.Extensions.xml",
+        "lib/net8.0/LTRData.Extensions.dll",
+        "lib/net8.0/LTRData.Extensions.xml",
+        "lib/net9.0/LTRData.Extensions.dll",
+        "lib/net9.0/LTRData.Extensions.xml",
+        "lib/netstandard2.0/LTRData.Extensions.dll",
+        "lib/netstandard2.0/LTRData.Extensions.xml",
+        "lib/netstandard2.1/LTRData.Extensions.dll",
+        "lib/netstandard2.1/LTRData.Extensions.xml",
+        "ltrdata.extensions.1.0.22.nupkg.sha512",
+        "ltrdata.extensions.nuspec"
+      ]
+    },
+    "Microsoft.Bcl.HashCode/6.0.0": {
+      "sha512": "GI4jcoi6eC9ZhNOQylIBaWOQjyGaR8T6N3tC1u8p3EXfndLCVNNWa+Zp+ocjvvS3kNBN09Zma2HXL0ezO0dRfw==",
+      "type": "package",
+      "path": "microsoft.bcl.hashcode/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "buildTransitive/net461/Microsoft.Bcl.HashCode.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Bcl.HashCode.targets",
+        "lib/net462/Microsoft.Bcl.HashCode.dll",
+        "lib/net462/Microsoft.Bcl.HashCode.xml",
+        "lib/net6.0/Microsoft.Bcl.HashCode.dll",
+        "lib/net6.0/Microsoft.Bcl.HashCode.xml",
+        "lib/netstandard2.0/Microsoft.Bcl.HashCode.dll",
+        "lib/netstandard2.0/Microsoft.Bcl.HashCode.xml",
+        "lib/netstandard2.1/Microsoft.Bcl.HashCode.dll",
+        "lib/netstandard2.1/Microsoft.Bcl.HashCode.xml",
+        "microsoft.bcl.hashcode.6.0.0.nupkg.sha512",
+        "microsoft.bcl.hashcode.nuspec"
+      ]
+    },
+    "System.Buffers/4.6.1": {
+      "sha512": "N8GXpmiLMtljq7gwvyS+1QvKT/W2J8sNAvx+HVg4NGmsG/H+2k/y9QI23auLJRterrzCiDH+IWAw4V/GPwsMlw==",
+      "type": "package",
+      "path": "system.buffers/4.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "buildTransitive/net461/System.Buffers.targets",
+        "buildTransitive/net462/_._",
+        "lib/net462/System.Buffers.dll",
+        "lib/net462/System.Buffers.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "lib/netstandard2.1/_._",
+        "system.buffers.4.6.1.nupkg.sha512",
+        "system.buffers.nuspec"
+      ]
+    },
+    "System.Collections.Immutable/9.0.17": {
+      "sha512": "teAJxR+X7UxUmL0c3+JsLAV1xaFW9JpqJFPb2iHrtKabx+hIM5hzSJpsHWQaXT9T+xxLhURxVD16MudXJAHZFQ==",
+      "type": "package",
+      "path": "system.collections.immutable/9.0.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Collections.Immutable.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Collections.Immutable.targets",
+        "lib/net462/System.Collections.Immutable.dll",
+        "lib/net462/System.Collections.Immutable.xml",
+        "lib/net8.0/System.Collections.Immutable.dll",
+        "lib/net8.0/System.Collections.Immutable.xml",
+        "lib/net9.0/System.Collections.Immutable.dll",
+        "lib/net9.0/System.Collections.Immutable.xml",
+        "lib/netstandard2.0/System.Collections.Immutable.dll",
+        "lib/netstandard2.0/System.Collections.Immutable.xml",
+        "system.collections.immutable.9.0.17.nupkg.sha512",
+        "system.collections.immutable.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Memory/4.6.3": {
+      "sha512": "qdcDOgnFZY40+Q9876JUHnlHu7bosOHX8XISRoH94fwk6hgaeQGSgfZd8srWRZNt5bV9ZW2TljcegDNxsf+96A==",
+      "type": "package",
+      "path": "system.memory/4.6.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "buildTransitive/net461/System.Memory.targets",
+        "buildTransitive/net462/_._",
+        "lib/net462/System.Memory.dll",
+        "lib/net462/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "lib/netstandard2.1/_._",
+        "system.memory.4.6.3.nupkg.sha512",
+        "system.memory.nuspec"
+      ]
+    },
+    "System.Numerics.Vectors/4.6.1": {
+      "sha512": "sQxefTnhagrhoq2ReR0D/6K0zJcr9Hrd6kikeXsA1I8kOCboTavcUC4r7TSfpKFeE163uMuxZcyfO1mGO3EN8Q==",
+      "type": "package",
+      "path": "system.numerics.vectors/4.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "buildTransitive/net461/System.Numerics.Vectors.targets",
+        "buildTransitive/net462/_._",
+        "lib/net462/System.Numerics.Vectors.dll",
+        "lib/net462/System.Numerics.Vectors.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard2.0/System.Numerics.Vectors.dll",
+        "lib/netstandard2.0/System.Numerics.Vectors.xml",
+        "lib/netstandard2.1/_._",
+        "system.numerics.vectors.4.6.1.nupkg.sha512",
+        "system.numerics.vectors.nuspec"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.1.2": {
+      "sha512": "2hBr6zdbIBTDE3EhK7NSVNdX58uTK6iHW/P/Axmm9sl1xoGSLqDvMtpecn226TNwHByFokYwJmt/aQQNlO5CRw==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/6.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "buildTransitive/net461/System.Runtime.CompilerServices.Unsafe.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.targets",
+        "lib/net462/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net462/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/net7.0/_._",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.6.1.2.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec"
+      ]
+    },
+    "System.Text.Encoding.CodePages/9.0.17": {
+      "sha512": "M242bMnThqC+zHHggl7Hcjaxa7A95KQV9MbYMMggbyFVd3uKNf8Rpz8QV2cYQ7uDDSJ/478eB26gfMjiTyMMzA==",
+      "type": "package",
+      "path": "system.text.encoding.codepages/9.0.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Text.Encoding.CodePages.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Text.Encoding.CodePages.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Text.Encoding.CodePages.dll",
+        "lib/net462/System.Text.Encoding.CodePages.xml",
+        "lib/net8.0/System.Text.Encoding.CodePages.dll",
+        "lib/net8.0/System.Text.Encoding.CodePages.xml",
+        "lib/net9.0/System.Text.Encoding.CodePages.dll",
+        "lib/net9.0/System.Text.Encoding.CodePages.xml",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "runtimes/win/lib/net8.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/net8.0/System.Text.Encoding.CodePages.xml",
+        "runtimes/win/lib/net9.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/net9.0/System.Text.Encoding.CodePages.xml",
+        "system.text.encoding.codepages.9.0.17.nupkg.sha512",
+        "system.text.encoding.codepages.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.6.3": {
+      "sha512": "7sCiwilJLYbTZELaKnc7RecBBXWXA+xMLQWZKWawBxYjp6DBlSE3v9/UcvKBvr1vv2tTOhipiogM8rRmxlhrVA==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.6.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "buildTransitive/net461/System.Threading.Tasks.Extensions.targets",
+        "buildTransitive/net462/_._",
+        "lib/net462/System.Threading.Tasks.Extensions.dll",
+        "lib/net462/System.Threading.Tasks.Extensions.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.1/_._",
+        "system.threading.tasks.extensions.4.6.3.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8.1": [
+      "LTRData.DiscUtils.Iso9660 >= 1.0.85",
+      "LTRData.DiscUtils.Udf >= 1.0.85"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Эльвира\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\IsoTool\\IsoTool.csproj",
+      "projectName": "IsoTool",
+      "projectPath": "C:\\IsoTool\\IsoTool.csproj",
+      "packagesPath": "C:\\Users\\Эльвира\\.nuget\\packages\\",
+      "outputPath": "C:\\IsoTool\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Эльвира\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net481"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\Эльвира\\AppData\\Roaming\\Cosmos User Kit2\\packages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net481": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net481": {
+        "dependencies": {
+          "LTRData.DiscUtils.Iso9660": {
+            "target": "Package",
+            "version": "[1.0.85, )"
+          },
+          "LTRData.DiscUtils.Udf": {
+            "target": "Package",
+            "version": "[1.0.85, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
